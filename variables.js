@@ -24,3 +24,10 @@ let course = {
     hours:3
 };
 console.log(course.name);
+//Arrays
+let productColors = ['blue','orange'];
+console.log(productColors) //acceder a todos los elemenotos del array
+console.log(productColors[1]); //acceder solo a ciertos elementos del array
+// Al igual que en python los array pueden ser heterogeneos, por ende aceptan cualquier tipo de elementos en un solo array (int, string, etc.)
+//let exampleArray =['blue',24,Date()];
+//console.log(exampleArray);

@@ -1,0 +1,12 @@
+let num1=14;
+let num2=10;
+
+const isNum1Greater= num1 < num2;
+console.log(isNum1Greater);
+
+//comparar dos numeros
+let n1=2;
+let n2='2';
+
+console.log(n1==n2); //la principal diferencia entre uno y el otro es que en uno (==) hace una comparacion menos estricta
+console.log(n1===n2);//en el otro hace una comparacion mas estricta, teniendo en cuenta inclusive el tipo de datos, en este caso devolveria falso porque uno es int y el otro es string
